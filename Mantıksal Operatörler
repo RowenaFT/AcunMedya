@@ -1,0 +1,19 @@
+#Görev1
+yas=int(input('Yaşınızı giriniz:'))
+print('Yaş<65 ve Yaş>18:',yas<65 and yas>18)
+print('Yaş>65 veya Yaş<18:',yas>65 or yas<18)
+print('Yaş 25 değildir.', not(yas == 25))
+
+#Görev2
+sayi=int(input('Lütfen bir sayi giriniz:'))
+print('Girdiğiniz sayı çifttir.', sayi%2==0)
+print('Girdiğiniz sayı pozitiftir.', sayi>0)
+
+#Görev3
+yas_bilgisi=int(input('Yaşınızı giriniz:'))
+ehliyet_bilgisi= str(input('Ehliyetiniz var mıdır:(True-False)'))
+
+if(yas_bilgisi>18 and ehliyet_bilgisi== 'True'):
+  print('Ehliyet kullanabilirsiniz')
+else:
+  print('Ehliyet kullamazsınız')
