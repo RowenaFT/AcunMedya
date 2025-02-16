@@ -1,0 +1,16 @@
+#Görev1
+sayı1=int(input('1. sayıyı giriniz:'))
+sayı2=int(input('2. sayıyı giriniz:'))
+print('Girdiğiniz sayılarda işlem sırasında öncelik ilk girilende olacaktır')
+print('Toplama işleminin sonucu=', sayı1+sayı2)
+print('Çıkarma işleminin sonucu=', sayı1-sayı2)
+print('Çarpma işleminin sonucu=', sayı1*sayı2)
+print('Bölme işleminin sonucu=', sayı1/sayı2)
+print('Tam bölme işleminin sonucu=', sayı1//sayı2)
+print('Mod alma işleminin sonucu = ', sayı1%sayı2)
+print('Üssünü alma işleminin sonucu = ', sayı1**sayı2)
+
+#Görev2
+yarıçap=float(input('Lütfen Yarıçapı giriniz:'))
+alan= (pow(yarıçap,2))*3.14
+print('Dairenin alanı:',alan)
