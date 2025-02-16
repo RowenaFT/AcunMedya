@@ -1,0 +1,18 @@
+#görev1
+isim='Adınız(string)'
+yas='Yaşınız(integer)'
+boy='Boyunuz(float)'
+ogrenci_mi='Öğrenci olup olmadığınız (boolean)'
+
+#nasıl istediğinizi bilmediğim için iki türlü de yapma kararı aldım.
+isim=str(input('Adınız:'))
+yas= int(input('Yaşınız:'))
+boy= (float(input('Boyunuz:')))
+ogrenci_mi=bool(input('Öğrenci olup olmadığınız:'))
+
+print(isim,yas,boy,ogrenci_mi)
+
+#görev2
+dogum_yili=int(input('Doğum Yılınız:'))
+yasınız=2025-dogum_yili
+print('Yaşınız: ',yasınız)
