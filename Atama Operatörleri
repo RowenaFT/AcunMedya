@@ -1,0 +1,15 @@
+#Görev1
+sayi=10
+sayi+=5
+print(sayi)
+sayi-=3
+print(sayi)
+sayi*=2
+print(sayi)
+sayi/=4
+print(sayi)
+
+#Görev2
+metin='Python'
+metin+=' Programlama'
+print('',metin)
