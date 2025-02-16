@@ -1,0 +1,22 @@
+#Görev1
+splitmetin=metin.split(',')
+print('kelime halinde metin=',splitmetin)
+
+metin=str(input('Bir metin giriniz'))
+metin=metin.upper()
+print('Büyültülmüş metin=',metin)
+
+metin=metin.replace('A','E')
+print('a ve e lerin değiştirildiği metin=', metin)
+
+düzenlimetin=metin.strip()
+print('Düzenli metin=', düzenlimetin)
+
+#Görev2
+pmetin='Python programlama dili'
+print(pmetin)
+tersmetin=''.join(reversed(pmetin))
+print('Ters çevirilmiş hali:', tersmetin)
+
+newmetin=pmetin.replace('programlama','Kodlama')
+print(newmetin)
