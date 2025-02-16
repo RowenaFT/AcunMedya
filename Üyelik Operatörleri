@@ -1,0 +1,9 @@
+#Görev1
+meyveler = ['elma', 'armut', 'çilek', 'kiraz']
+isim=str(input('Listede aradığınız isimi yazınız:'))
+print('İsim listede mevcut:', isim in meyveler)
+
+#Görev2
+parola = "PyThOn123"
+karakter=str(input('Lütfen paraloda aradığınız karakteri giriniz.'))
+print('Karakter parolada vardır.', karakter in parola)
